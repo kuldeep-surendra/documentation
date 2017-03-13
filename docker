@@ -1,0 +1,4 @@
+sudo docker create network kuldeep-network2
+sudo docker run --network=kuldeep-network2 -itd --name=container4 docker_web:latest
+sudo docker network inspect kuldeep-network2
+docker exec -ti NAME_OF_CONTAINER psql -U YOUR_POSTGRES_USERNAME

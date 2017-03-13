@@ -1,0 +1,3 @@
+sudo docker create network kuldeep-network2
+sudo docker run --network=kuldeep-network2 -itd --name=container4 docker_web:latest
+sudo docker network inspect kuldeep-network2
